@@ -1,0 +1,449 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.page-one {
+  position: relative;
+  background-image: url(img/hero.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+/* menu bar */
+
+.nav-bar {
+
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+
+}
+
+
+
+.buy-it-logo img {
+  height: 60px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: #777;
+  margin-top: 15px;
+  padding: 8px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+li a:hover {
+  background: #b2dd4c;
+  color:#fff;
+  transition: all 0.5s;
+}
+
+
+
+
+.count {
+    cursor: pointer;
+    position: absolute;
+    font-size: 12px;
+    background: #b2dd4c;
+    color: #fff;
+    padding: 5px;
+    vertical-align: top;
+    transform: translateY(10px);
+    margin-left: -30px;
+    border-radius: 5px;
+}
+
+
+
+.active {
+  background: #b2dd4c;
+  color:#fff;
+}
+
+/* feelPowerful*/
+
+.feelPowerful {
+  position: absolute;
+  top: 100px;
+  left: 130px;
+  font-size: 2em;
+}
+.para {
+  font-size: 0.7em;
+  color: #aaa;
+}
+.btn  {
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+  background: #b2dd4c;
+  color:#fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-buy {
+  cursor: pointer;
+  width: 75px;
+  height: 30px;
+  background: #f5f5f5;
+  color:#aaa;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  background: #f5f5f5;
+  color:#aaa;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+.btn-buy:hover {
+  background: #b2dd4c;
+  color:#fff;
+  border: none;
+  transition: all 0.5s;
+}
+
+svg {
+
+  display: block;
+  width: 100%;
+  height: 90px;
+  background: transparent;
+  fill: #fff;
+  transform: translate(0, -100%);
+}
+
+/*features and spicifications */
+
+.page-two {
+  position: relative;
+  height: 100vh;
+  width: 100%
+}
+
+.features-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 100px 0 100px;
+  text-align: center;
+
+}
+
+
+.extra-bass  {
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  border-radius: 30px;
+  padding: 50px;
+  width: 100%;
+
+}
+.extra-bass:hover {
+  border: 3px solid #b2dd4c;
+  transition: border 0.5s;
+}
+
+.extra-bass i{
+  font-size: 50px;
+  color: #fff;
+  background: #b2dd4c;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  line-height: 100px;
+}
+.extra-bass:hover i {
+  transform: rotate(360deg);
+  transition: all 1.5s;
+}
+
+.features-text {
+  text-align: center;
+  width: 100%;
+  height: 30%;
+}
+
+.features-text h2 {
+  font-size: 2em;
+}
+.features-text p {
+  font-size: 1em;
+  color: #aaa;
+}
+
+.btn-grey {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  background: #f5f5f5;
+  color:#aaa;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+.btn-grey:hover {
+  background: #b2dd4c;
+  color:#fff;
+  border: none;
+  transition: all 0.5s;
+}
+
+.page-three {
+
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  position:relative;
+
+}
+
+.img-container{
+  display: flex;
+
+}
+.img-parent {
+  padding: 10px;
+}
+.img-app {
+  cursor: pointer;
+  background-image: url(img/app-store.png);
+  background-size: cover;
+  height: 70px;
+  width: 200px;
+}
+
+.img-app:hover {
+  cursor: pointer;
+  background-image: url(img/app-store-green.png);
+  background-size: cover;
+  height: 70px;
+  width: 200px;
+  transition: all 0.4s;
+}
+
+.img-andr {
+  cursor: pointer;
+  background-image: url(img/play-store.png);
+  background-size: cover;
+  height: 70px;
+  width: 210px;
+}
+
+.img-andr:hover {
+  cursor: pointer;
+  background-image: url(img/play-store-green.png);
+  background-size: cover;
+  height: 70px;
+  width: 210px;
+  transition: all 0.4s;
+}
+
+.clif{
+  position: absolute;
+  top: 0;
+  background: #fff;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 12%, 0% 24%);
+    height: 20em;
+    width: 100%;
+}
+.clif-bottom{
+
+  background: #fff;
+    position: absolute;
+    transform: translateY(-7.5em);
+    clip-path: polygon(100% 25%, 100% 50%, 50% 50%, 0% 50%);
+    height: 20em;
+    width: 100%;
+}
+.about {
+  display: flex;
+  box-sizing: border-box;
+}
+.mobile img {
+ float: right;
+  height:100vh;
+  width: 70%;
+}
+
+.mobile {
+  width: 50%;
+
+}
+.caption {
+  padding: 10em 0 0 5em;
+  width: 50%;
+}
+.caption img {
+  margin: 1em;
+}
+
+/* page 4 */
+
+.page-four {
+ height: 100vh;
+}
+.products{
+  text-align: center;
+}
+
+.pic-container {
+  display: flex;
+  justify-content: center;
+}
+
+.products-pictures {
+
+  margin: 130px 20px 0 20px;
+  width: 20%;
+  height: 50%;
+}
+
+.products-pictures img{
+  width: 100%;
+  height: 60%;
+  display: block;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #aaa;
+
+}
+
+.edition {
+  padding: 20px 0 0 10px;
+}
+
+.stars {
+  padding: 40px 10px 0 0;
+
+}
+.checked , .unchecked{
+  color: #b2dd4c;
+}
+
+.button {
+  width: 100%;
+  font-size: 0;
+}
+
+.button button {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height:40px;
+  background: transparent;
+  border: 2px solid #aaa;
+  border-top: none;
+  letter-spacing: 1px;
+}
+.button button:hover {
+  background: #b2dd4c;
+  color: #fff;
+  border: 2px solid #aaa;
+  border-top: none;
+  transition: all 0.4s;
+
+}
+.button .btn-dtl {
+  border-right: none;
+}
+.button .btn-dtl:hover {
+  border-right: none;
+  transition: all 0.4s;
+}
+
+
+.price {
+  color: #aaa;
+}
+
+/* last page*/
+
+.last {
+  width: 100%;
+  height: 20vh;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtitle , .btn-add {
+  display: flex;
+  align-items: center;
+  padding: 4em;
+}
+
+.subtitle {
+  color: #888;
+}
+
+.btn-add button{
+  cursor: pointer;
+  height: 3em;
+  width: 10em;
+  border-radius: 5px;
+  background: #b2dd4c;
+  border: none;
+  color: #fff;
+}
+
+.btn-add button:hover {
+  background: #f5f5f5;
+  color:#aaa;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+
+/* footer */
+footer {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333;
+  color: #aaa;
+}
